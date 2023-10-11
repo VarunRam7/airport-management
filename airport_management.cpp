@@ -84,9 +84,9 @@ int main()
             else if (slct1 == 5)
             {
             	cout<<"1. Before Insertation \n2. After Insertation "<<endl;
-            	int choice;
-            	cin>>choice;
-            	if(choice==1)
+            	int select;
+            	cin>>select;
+            	if(select==1)
             	{
             		cout<< "=========================================================================\n";
                 	for (int i = 0; i <5; i++)
@@ -95,7 +95,7 @@ int main()
                     
                 	}	
 				}
-				if(choice==2)
+				if(select==2)
 				{
 					cout << " Airline Title\t     Airline Code    Airline #Pass\t   A&D Time" << endl
                     << "=========================================================================\n";
