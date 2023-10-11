@@ -20,11 +20,17 @@ int main()
         {"Turkish-Airline", "02:15PM-06:30PM", 235, 225},
         {"British-Airways", "09:00PM-12:00AM", 125, 125}
     };
-    string Sample1[5] = {}; 
-    string AirlineTime[5] = {"11:26AM-06:10PM", "12:28PM-07:00PM", "03:00AM-08:15PM", "02:15PM-06:30PM", "09:00PM-12:00AM"};
-    string Sample2[5] = {};
-    int AirlineCode[5] = {112, 102, 297, 235, 125};
-    int AirlinePass[5] = {150, 458, 600, 225, 125};
+    std::vector<std::string> Sample1(5);
+	std::vector<std::string> AirlineTime = {
+        "11:26AM-06:10PM",
+        "12:28PM-07:00PM",
+        "03:00AM-08:15PM",
+        "02:15PM-06:30PM",
+        "09:00PM-12:00AM"
+    };    
+	std::vector<std::string> Sample2(5);
+	std::vector<std::int> AirlineCode = {112, 102, 297, 235, 125};
+    std::vector<std::int> AirlinePass = {150, 458, 600, 225, 125};
     //finding arrays lenght to calculate the total number of elements present in the arrays and storing them into thier size variables
     int titleSize = sizeof(AirlineTitle) / sizeof(AirlineTitle[0]);
     int codeSize = sizeof(AirlineCode) / sizeof(AirlineCode[0]);
