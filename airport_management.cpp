@@ -208,7 +208,6 @@ int main()
                 cin >> pos;
                 cout << "Enter the value of the updated element:" << endl;
                 string item;
-                //getline(cin,item);
                 cin >> item;
                 AirlineTitle[pos] = item;
                 cout << "The updated array is :" << endl;
