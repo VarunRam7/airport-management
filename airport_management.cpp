@@ -284,7 +284,8 @@ int main()
             if (slct4 == 1)
             {
                 string item;
-                int pos, i;
+                int pos;
+		int i;
                 cout << "The array elements before insertion are :\n";
 
                 for (i = 0; i < titleSize; i++)
@@ -315,7 +316,9 @@ int main()
             }
             else if (slct4 == 2)
             {
-                int pos, i, item;
+                int pos;
+		int i;
+		int item;
                 cout << "The array elements before insertion are :\n";
 
                 for (i = 0; i < codeSize; i++)
@@ -346,7 +349,9 @@ int main()
             }
             else if (slct4 == 3)
             {
-                int pos, i, item;
+                int pos;
+		int i;
+		int item;
                 cout << "The array elements before insertion are :\n";
 
                 for (i = 0; i < PassSize; i++)
@@ -378,7 +383,8 @@ int main()
             if (slct4 == 4)
             {
                 string item;
-                int pos, i;
+                int pos;
+		int i;
                 cout << "The array elements before insertion are :\n";
 
                 for (i = 0; i < TimeSize; i++)
@@ -411,7 +417,8 @@ int main()
             cin >> slct5;
             if (slct5 == 1)
             {
-                int pos, i;
+                int pos;
+		int i;
                 cout << "Stored values in AirlineTitle array are :" << endl;
                 for (i = 0; i < titleSize; i++)
                 {
@@ -437,7 +444,8 @@ int main()
             }
             else if (slct5 == 2)
             {
-                int pos, i;
+                int pos;
+		int i;
                 cout << "Stored values in AirlineCode array are :" << endl;
                 for (i = 0; i < codeSize; i++)
                 {
@@ -461,7 +469,8 @@ int main()
             }
             else if (slct5 == 3)
             {
-                int pos, i;
+                int pos;
+		int i;
                 cout << "Stored values in AirlinePass array are :" << endl;
                 for (i = 0; i < PassSize; i++)
                 {
@@ -485,7 +494,8 @@ int main()
             }
             else if (slct5 == 4)
             {
-                int pos, i;
+                int pos;
+		int i;
                 cout << "Stored values in AirlineTitle array are :" << endl;
                 for (i = 0; i < TimeSize; i++)
                 {
