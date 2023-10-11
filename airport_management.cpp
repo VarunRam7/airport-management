@@ -2,8 +2,23 @@
 #include <string>
 #include <iomanip>
 using namespace std;
+
+struct Airline {
+	std::string title;
+	std::string time;
+	int code;
+	int passengers;
+};
+
 int main()
 {
+    std::vector<Airline> airlines = {
+    	{"American-Airline", "11:26AM-06:10PM", 112, 150},
+	{"Emirates-Airline", "12:28PM-07:00PM", 102, 458},
+	{"Singapore-Airline", "03:00AM-08:15PM", 297, 600},
+	{"Turkish-Airline", "02:15PM-06:30PM", 235, 225},
+	{"British-Airways", "09:00PM-12:00AM", 125, 125}
+    };
     //initializing the arrays for storing arlines data
     string AirlineTitle[5] = {"American-Airline", "Emirates-Airline", "Singapore-Airline", "Turksih-Airline", "British-Airways"};
     string Sample1[5] = {}; 
