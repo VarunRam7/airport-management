@@ -18,7 +18,7 @@ void displayArray(const std::vector<std::string>& arr) {
 }
 
 // Function to search for an item in an array
-int searchArray(const std::vector<std::string>& arr, const std::string& item) {
+int searchArray(const std::vector<std::string>& arr, std::string_view item) {
     for (size_t i = 0; i < arr.size(); i++) {
         if (arr[i] == item) {
             return i;
