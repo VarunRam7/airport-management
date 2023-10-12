@@ -38,7 +38,7 @@ void insertArray(std::vector<std::string>& arr) {
 }
 
 // Function to delete an element from an array
-void deleteFromArray(std::vector<std::string>& arr) {
+void deleteFromArray() {
     // Add code to delete from the array
 }
 
