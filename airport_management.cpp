@@ -28,12 +28,12 @@ int searchArray(const std::vector<std::string>& arr, std::string_view item) {
 }
 
 // Function to update an element in an array
-void updateArray(std::vector<std::string>& arr) {
+void updateArray(const std::vector<std::string>& arr) {
     // Add code to update the array
 }
 
 // Function to insert an element into an array
-void insertArray(std::vector<std::string>& arr) {
+void insertArray(const std::vector<std::string>& arr) {
     // Add code to insert into the array
 }
 
